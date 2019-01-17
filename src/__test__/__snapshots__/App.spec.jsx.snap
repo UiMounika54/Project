@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component App  component renders correctly using snapshots 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-body"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="summaryName col-7 undefined"
+        >
+           Subtotal 
+        </div>
+        <strong
+          className="summaryAmount col-5 undefined"
+        >
+          <span>
+             
+            $112
+             
+          </span>
+        </strong>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="summaryName col-7 pl-0"
+        >
+          <a
+            className="summaryName col-7 underline"
+            data-placement="bottom"
+            data-toggle="tooltip"
+            href="javascript:void(0)"
+            title="Picking up your order in the store helps cut costs, and we pass the savings on to you."
+          >
+             Pickup Savings 
+          </a>
+        </div>
+        <strong
+          className="summaryAmount col-5 "
+        >
+          <span>
+             
+            -$3
+             
+          </span>
+        </strong>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="summaryName col-7 undefined"
+        >
+           EST.taxes&fees (Based on 94085) 
+        </div>
+        <strong
+          className="summaryAmount col-5 undefined"
+        >
+          <span>
+             
+            $9
+             
+          </span>
+        </strong>
+      </div>
+      <hr />
+      <h4>
+        <strong>
+          <div
+            className="row"
+          >
+            <div
+              className="summaryName col-7 undefined"
+            >
+               Est.total 
+            </div>
+            <strong
+              className="summaryAmount col-5 undefined"
+            >
+              <span>
+                 
+                $118
+                 
+              </span>
+            </strong>
+          </div>
+        </strong>
+      </h4>
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <div
+            id="ViewItemDetails"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-header"
+              >
+                <button
+                  aria-expanded="true"
+                  className="btn btn-link collapsed"
+                  data-target="#details"
+                  data-toggle="collapse"
+                  onClick={[Function]}
+                >
+                  See Item Details
+                </button>
+              </div>
+              <div
+                className="collapse"
+                id="details"
+              >
+                <div
+                  className="card-body"
+                >
+                  <div
+                    className="item"
+                  >
+                    <img
+                      alt=""
+                      src="https://i5.walmartimages.com/asr/e73e1252-642c-4473-93ea-fd3b564a7027_1.3e81ea58fa3042452fe185129a4a865f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
+                    />
+                    <p
+                      className="itemName"
+                    >
+                       
+                      Essentials by OFM ESS-3085 Racing Style Leather
+                       
+                    </p>
+                    <small
+                      className="reducedPrice"
+                    >
+                       
+                      $90
+                       
+                    </small>
+                    <small
+                      className="quantity"
+                    >
+                      Qty: 
+                      1
+                    </small>
+                    <br />
+                    <small
+                      className="originalPrice"
+                    >
+                       
+                      $120
+                       
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <div
+            id="PromoCode"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-header"
+              >
+                <button
+                  aria-expanded="true"
+                  className="btn btn-link collapsed"
+                  data-target="#promoInput"
+                  data-toggle="collapse"
+                  onClick={[Function]}
+                >
+                  Apply Promo Code
+                   
+                  <i
+                    className="fal fa-plus"
+                  />
+                </button>
+              </div>
+              <div
+                className="collapse"
+                id="promoInput"
+              >
+                <div
+                  className="card-body"
+                >
+                  <form
+                    className="form-inline"
+                  >
+                    <div
+                      className="form-group mb-2"
+                    >
+                      <label
+                        htmlFor="promoCode"
+                      >
+                        Promo Code
+                      </label>
+                      <input
+                        className="form-control"
+                        id="promoCode"
+                        name="promoCode"
+                        type="text"
+                      />
+                    </div>
+                    <button
+                      className="btn btn-secondary"
+                      name="apply"
+                      onClick={[Function]}
+                      type="button"
+                      value={true}
+                    >
+                      Apply
+                    </button>
+                  </form>
+                  <small>
+                    **Note: Only promo with name "DISCOUNT" is enabled
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
